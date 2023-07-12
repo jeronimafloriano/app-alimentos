@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 import com.example.alimentos.R;
+import com.example.alimentos.business.FoodBusiness;
 
 public class DetailsActivity extends AppCompatActivity {
 
