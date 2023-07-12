@@ -1,9 +1,11 @@
-package com.example.alimentos;
+package com.example.alimentos.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+
+import com.example.alimentos.R;
 
 public class MainActivity extends AppCompatActivity {
 
