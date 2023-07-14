@@ -21,8 +21,15 @@ public class FoodViewHolder extends RecyclerView.ViewHolder {
         this.mTextCalories = itemView.findViewById(R.id.text_calories);
     }
 
-    public void bind(FoodEntity food){
+    public void bind(FoodEntity food, OnListClick listener){
         this.mTextName.setText(food.getName());
         this.mTextCalories.setText(String.valueOf(food.getCalories()));
+
+        this.mTextName.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                listener.onClick(food.getId());
+            }
+        });
     }
 }
