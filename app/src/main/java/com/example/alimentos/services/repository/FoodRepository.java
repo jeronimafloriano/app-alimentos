@@ -1,4 +1,4 @@
-package com.example.alimentos.repository;
+package com.example.alimentos.services.repository;
 
 import com.example.alimentos.entity.FoodEntity;
 

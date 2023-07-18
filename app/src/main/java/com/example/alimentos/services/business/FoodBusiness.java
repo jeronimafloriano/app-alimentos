@@ -1,8 +1,8 @@
-package com.example.alimentos.business;
+package com.example.alimentos.services.business;
 
-import com.example.alimentos.constants.Filter;
+import com.example.alimentos.services.constants.Filter;
 import com.example.alimentos.entity.FoodEntity;
-import com.example.alimentos.repository.FoodRepository;
+import com.example.alimentos.services.repository.FoodRepository;
 
 import java.util.List;
 import java.util.stream.Collectors;

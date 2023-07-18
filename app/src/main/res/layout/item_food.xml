@@ -17,14 +17,16 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:padding="8dp"
-        android:text="@string/calorias" />
+        android:text="@string/text_calorias" />
 
     <TextView
         android:id="@+id/text_quantity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/text_name"
-        android:padding="8dp"
+        android:paddingTop="8dp"
+        android:paddingStart="8dp"
+        android:paddingEnd="2dp"
         android:text="Qnt" />
 
     <TextView
@@ -33,7 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/text_name"
         android:layout_toEndOf="@id/text_quantity"
-        android:padding="8dp"
+        android:paddingTop="8dp"
         android:text="Un" />
 
     <View

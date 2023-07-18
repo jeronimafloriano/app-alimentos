@@ -12,12 +12,12 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 
 import com.example.alimentos.R;
-import com.example.alimentos.adapter.FoodAdapter;
-import com.example.alimentos.business.FoodBusiness;
-import com.example.alimentos.constants.Filter;
-import com.example.alimentos.constants.FoodConstants;
+import com.example.alimentos.ui.adapter.FoodAdapter;
+import com.example.alimentos.services.business.FoodBusiness;
+import com.example.alimentos.services.constants.Filter;
+import com.example.alimentos.services.constants.FoodConstants;
 import com.example.alimentos.entity.FoodEntity;
-import com.example.alimentos.listener.OnListClick;
+import com.example.alimentos.services.listener.OnListClick;
 
 import java.util.List;
 

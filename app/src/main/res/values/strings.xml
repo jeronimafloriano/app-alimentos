@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Alimentos</string>
     <string name="calorias">Calorias</string>
+    <string name="text_calorias">calorias</string>
     <string name="nenhuma_informacao_extra_para_ser_mostrada">Nenhuma informação extra para ser mostrada.</string>
     <string name="informacoes">Informações</string>
     <string name="tamanho_da_porcao">Tamanho da porção</string>
