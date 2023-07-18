@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="HiLightedInformation">
+        <item name="fontFamily">@font/quicksand_light</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="DefaultInformation">
+        <item name="fontFamily">@font/alegreya</item>
+    </style>
+</resources>

@@ -11,7 +11,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.alimentos.R;
 import com.example.alimentos.entity.FoodEntity;
 import com.example.alimentos.viewholder.FoodViewHolder;
-import com.example.alimentos.viewholder.OnListClick;
+import com.example.alimentos.listener.OnListClick;
 
 import java.util.List;
 

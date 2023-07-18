@@ -8,6 +8,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.alimentos.R;
 import com.example.alimentos.entity.FoodEntity;
+import com.example.alimentos.listener.OnListClick;
 
 public class FoodViewHolder extends RecyclerView.ViewHolder {
 

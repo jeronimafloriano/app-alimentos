@@ -1,4 +1,4 @@
-package com.example.alimentos.viewholder;
+package com.example.alimentos.listener;
 
 public interface OnListClick {
     void onClick(int id);
